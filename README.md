@@ -3,6 +3,8 @@ a console for the xbox port of Half-Life 2
 
 ## building
 
+use the build.bat file, but make sure you fill the requirements needed below.
+
 ### Linux
 
 * At least GCC 14
