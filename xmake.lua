@@ -1,0 +1,16 @@
+add_rules("mode.debug", "mode.release")
+
+add_requires("minhook")
+
+target("hl2x_console")
+    set_kind("shared")
+    set_languages("c++20")
+    add_files("src/main.cpp")
+    set_symbols("debug")
+    add_links("user32")
+    add_links("gdi32")
+    add_links("comctl32")
+    add_links("advapi32")
+    add_packages("minhook")
+    set_filename("hl2x_console.dll")
+target_end()
