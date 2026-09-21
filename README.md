@@ -3,6 +3,8 @@ a console for the xbox port of Half-Life 2
 
 ## building
 
+use the build.bat file, but make sure you fill the requirements needed below.
+
 ### Linux
 
 * At least GCC 14
@@ -25,3 +27,11 @@ xmake
 * open cxbx-reloaded (ideally a version that supports hl2x, such as [this](https://github.com/Cxbx-Reloaded/Cxbx-Reloaded/releases/download/CI-97bf1d9/CxbxReloaded-Release-VS2019.zip) one)
 * after loading your game, wait until you see the screen that says "Press Start" 
 * run `rundll32 hl2x_console.dll,Run` via cmd in the directory that has your xbes
+
+## preview
+
+![preview](img/preview.png)
+
+## credits
+
+made by [fishywitch](https://github.com/fishywitch)
